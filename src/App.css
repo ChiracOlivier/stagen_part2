@@ -7,7 +7,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /*background  #282c34;*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,4 +19,11 @@
 
 .App-link {
   color: #09d3ac;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 50%;
 }

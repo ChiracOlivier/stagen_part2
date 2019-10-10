@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import video1 from './video1.mp4'
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </a>
         <span>Salut</span>
       </header>
+      <video autoPlay loop id="myVideo">
+        <source src={video1} type="video/mp4"/>
+      </video>
     </div>
   );
 }
